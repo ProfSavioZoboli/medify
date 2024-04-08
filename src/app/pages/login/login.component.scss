@@ -1,0 +1,54 @@
+.background{
+    width:100vw;
+    height:100%;
+    background:#EEE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width:60%;
+        height:80%;
+        //border:1px red solid;
+        display:flex;
+        background:rgba(150,150,150,0.1);
+        box-shadow: 0 0 0.5em #999;
+        border-radius: 0.5em;
+        .form{
+            width:60%;
+            height:100%;
+            //border:1px green solid;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            header{
+                width:100%;
+                height:30%;
+                text-align: center;
+                img{
+                    max-width: 100%;
+                    height:100%;
+                    
+                }
+            }
+            main{
+                width:80%;
+                height:60%;
+                border:1px red solid;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
+        .image{
+            width:40%;
+            height:100%;
+            //border:1px magenta solid;
+            background:url('/assets/img/drugstore_bg.webp');
+            background-size: cover;
+            border-top-right-radius: 0.5em;
+            border-bottom-right-radius: 0.5em;
+        }
+    }
+}
